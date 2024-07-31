@@ -1,4 +1,4 @@
-package com.seolbin.level01.basic;
+package com.seolbin.chap03.level01.basic;
 
 public class Calculator {
 

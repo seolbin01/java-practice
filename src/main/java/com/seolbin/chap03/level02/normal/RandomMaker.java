@@ -1,4 +1,4 @@
-package com.seolbin.level02.normal;
+package com.seolbin.chap03.level02.normal;
 
 public class RandomMaker {
 
