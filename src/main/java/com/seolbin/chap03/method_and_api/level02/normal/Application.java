@@ -1,4 +1,4 @@
-package com.seolbin.chap03.level02.normal;
+package com.seolbin.chap03.method_and_api.level02.normal;
 
 public class Application {
     public static void main(String[] args) {

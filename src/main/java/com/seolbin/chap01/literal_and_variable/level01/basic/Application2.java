@@ -1,4 +1,4 @@
-package com.seolbin.chap01.level01.basic;
+package com.seolbin.chap01.literal_and_variable.level01.basic;
 
 public class Application2 {
     public static void main(String[] args) {
