@@ -2,7 +2,7 @@ package com.seolbin.chap03.level01.basic;
 
 public class Application {
     public static void main(String[] args) {
-        Calculator calculator = new Calculator();
+        com.seolbin.chap03.level01.basic.Calculator calculator = new com.seolbin.chap03.level01.basic.Calculator();
 
         calculator.checkMethod();
         System.out.println("1부터 10까지의 합 : " + calculator.sum1to10());
