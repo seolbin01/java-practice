@@ -6,14 +6,26 @@ public class Application2 {
     public static void main(String[] args) {
         int[] arr1 = new int[4];
 
-        for (int i = 0; i < arr1.length; i++) {
-            arr1[i] = (int) (Math.random() * 10);
+        int num1 = 0;
+        loop:
+        while (num1 < 4) {
+            arr1[num1] = (int) (Math.random() * 10);
+
+            if (num1 != 0) {
+                for (int i = 0; i < num1; i++) {
+                    if (arr1[i] == arr1[num1]) {
+                        continue loop;
+                    }
+                }
+            }
+
+            num1++;
         }
 
         Scanner sc = new Scanner(System.in);
-        int num = 0;
-        while(num < 10) {
-            System.out.println((10 - num) + "회 남으셨습니다.");
+        int num2 = 0;
+        while(num2 < 10) {
+            System.out.println((10 - num2) + "회 남으셨습니다.");
             System.out.print("4자리 숫자를 입력하세요 : ");
             String str = sc.nextLine();
 
@@ -44,7 +56,7 @@ public class Application2 {
             }
             else System.out.println("아쉽네요 " + scount + "S " + bcount + "B 입니다.");
 
-            num++;
+            num2++;
         }
 
         System.out.println("10번의 기회를 모두 소진하셨습니다. 프로그램을 종료합니다.");
