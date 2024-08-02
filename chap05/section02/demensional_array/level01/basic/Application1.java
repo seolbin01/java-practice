@@ -1,4 +1,4 @@
-package com.seolbin.chap05.section2.demensional_array.level01.basic;
+package com.seolbin.chap05.section02.demensional_array.level01.basic;
 
 public class Application1 {
     public static void main(String[] args) {

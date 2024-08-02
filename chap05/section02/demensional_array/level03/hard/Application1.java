@@ -1,4 +1,4 @@
-package com.seolbin.chap05.section2.demensional_array.level03.hard;
+package com.seolbin.chap05.section02.demensional_array.level03.hard;
 
 import java.util.Scanner;
 
