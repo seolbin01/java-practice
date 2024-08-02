@@ -8,10 +8,10 @@ public class Application1 {
 
         int num = 0;
         loop:
-        while (num < 6) { // 0~5 까지 인덱스로 들어감
+        while (num < 6) {
             arr[num] = (int) (Math.random() * 45) + 1;
 
-            if (num != 0) { //1~5
+            if (num != 0) {
                 for (int i = 0; i < num; i++) {
                     if (arr[i] == arr[num]) {
                         continue loop;
