@@ -11,7 +11,7 @@ public class Application {
         int count = 0;
         Scanner sc = new Scanner(System.in);
         label:
-        while(true) {
+        while(count < 10) {
             System.out.print("학년 : ");
             int grade = sc.nextInt();
             System.out.print("반 : ");
