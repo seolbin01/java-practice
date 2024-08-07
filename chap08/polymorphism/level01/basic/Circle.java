@@ -2,10 +2,11 @@ package com.seolbin.chap08.polymorphism.level01.basic;
 
 public class Circle extends Shape implements Resizable {
 
+    private int radius;
     private static double PI = 3.141592653589793;
 
     public Circle(int radius) {
-        super(radius);
+        this.radius = radius;
     }
 
     @Override
@@ -15,7 +16,7 @@ public class Circle extends Shape implements Resizable {
 
     @Override
     double calculateArea() {
-        return getPI() * (super.getRadius() * super.getRadius());
+        return getPI() * (getRadius() * getRadius());
     }
 
     @Override
@@ -26,6 +27,14 @@ public class Circle extends Shape implements Resizable {
     @Override
     String getName() {
         return "Circle";
+    }
+
+    public int getRadius() {
+        return radius;
+    }
+
+    public void setRadius(int radius) {
+        this.radius = radius;
     }
 
     public static double getPI() {
