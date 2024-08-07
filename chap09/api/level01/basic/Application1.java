@@ -1,4 +1,4 @@
-package com.seolbin.chap09.level01.basic;
+package com.seolbin.chap09.api.level01.basic;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;
